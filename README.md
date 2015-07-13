@@ -5,7 +5,7 @@ A basic portrait / landscape RecyclerView backed by a SQLite table.
 
 Demo of Android RecyclerView connected to SQLite using recommended architecture. The demo also shows handling of one-pane / two-pane fragment modes throughout orientation changes. The behaviour is shown on [YouTube - https://youtu.be/lME4ZZI5pBU](https://youtu.be/lME4ZZI5pBU) and you can download, install and run the APK (needs no permissions) to test the concept before you dig into the code. 
 
-The solution itself is trivial and broadly published. The only intelligence I added can be seen in 'ListFragment.select{}' method. It handles an aspect I could not find elsewhere, that is the ability to maintain (and center) the currently selected item throughout the orientation changes.
+The solution itself is trivial and broadly published. The only intelligence I added can be seen in 'ListFragment.select()' method. It handles an aspect I could not find elsewhere, that is the ability to maintain (and center) the currently selected item throughout the orientation changes.
 
 The code is built using Android Studio 1.2.2. For dependencies, see the 'app/build.gradle' file.
 
